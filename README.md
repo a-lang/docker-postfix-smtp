@@ -8,22 +8,23 @@ TLS and OpenDKIM support are included.
 
 
 1. Clone the codes  
-  ```bash
-  git clone https://github.com/a-lang/docker-postfix-smtp.git
-  ```
+	
+	```bash
+	git clone https://github.com/a-lang/docker-postfix-smtp.git
+	```
 
 2. Pull the image  
 
-  ```bash
-  docker pull alangtw/postfix-smtp:trusty
-  ```
+	```bash
+	docker pull alangtw/postfix-smtp:trusty
+	```
 
 ## Usage
 1. Run the container
   
-  ```bash
-  ./run.sh
-  ```
+	```bash
+	./run.sh
+	```
 2. Create the SSL self-signed certificates for your domain, save the certificates `.key and .crt` in `data/certs`
 	
 	```bash
